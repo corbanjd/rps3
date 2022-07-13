@@ -156,6 +156,8 @@ clickPaper.onclick = function (){
     roundText.textContent ="Round: " + round;
     playerChoiceText.textContent="Player Selection: Paper";
     computerChoiceText.textContent="Computer Selection: " + computerSelection;
+    computerScoreText.textContent=computerWinner;
+    playerScoreText.textContent=playerWinner;
     }
 };
 
